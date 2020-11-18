@@ -1,0 +1,98 @@
+h2{
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+.select-button{
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin: 30px auto;
+  border-bottom-color: red;
+  border-width: 0 0 3px 0;
+  background-color:  rgb(38, 100, 172);
+}
+.select-button_option{
+  color: black;
+  background-color: white;
+}
+
+.movieperpage-button{
+  margin-left: 10px;
+  width: 30px;
+  border-bottom-color: red;
+  border-width: 0 0 3px 0;
+}
+.active-like{
+  color:#318CE7;
+}
+.favorite:hover {
+  cursor: pointer;
+}
+.favorite{
+  color: grey;
+}
+.jauge-container{
+  background-color: #928e8e;
+  width: 200px;
+  height: 10px;
+}
+.movie-container{
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+
+}
+.movie-card{
+  position: relative;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  margin: 15px;
+  width: 200px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.delete-button{
+  background-color: rgba(0, 0, 0,0.5);
+  border-radius: 25px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  line-height: 25px;
+  width: 30px;
+  height: 30px;;
+}
+
+.likes-counter{
+  margin: 5px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  font-size: 1em;
+  justify-content: flex-end;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%,rgb(0, 0, 0) 25%, rgba(0,0,0,0.6) 75%, rgba(84,84,84,0) 100%);
+  padding-bottom: 5px;
+}
+
+/* .movie-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 300px;
+  width: 100%;
+} */
